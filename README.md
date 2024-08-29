@@ -21,11 +21,11 @@ Step-by-Step Breakdown:
 5. Downloading the Video:
     * download_option = input("Do you want to download this video? (yes/no): ").lower(): Ask the user if they want to download the video. The answer is converted to lowercase for easier comparison.
     * If the user chooses "yes":
-    url = 'https://youtube.com/shorts/skdXa3Q61HE?si=nHklaHieslhrsGxm': Define the URL of the video to be downloaded (in this case, a specific YouTube Shorts video).
-    ydl_opts = {'format': 'best'}: Set the download options, specifying that the best quality available should be downloaded.
-    with YoutubeDL(ydl_opts) as ydl: Use the YoutubeDL class to download the video using the specified options.
-    ydl.download([url]): Start downloading the video.
-    print("Download completed."): Inform the user that the download is complete.
+      * url = 'https://youtube.com/shorts/skdXa3Q61HE?si=nHklaHieslhrsGxm': Define the URL of the video to be downloaded (in this case, a specific YouTube Shorts video).
+      * ydl_opts = {'format': 'best'}: Set the download options, specifying that the best quality available should be downloaded.
+      * with YoutubeDL(ydl_opts) as ydl: Use the YoutubeDL class to download the video using the specified options.
+      * ydl.download([url]): Start downloading the video.
+      * print("Download completed."): Inform the user that the download is complete.
     * If the user chooses "no":
     print("Download aborted."): Inform the user that the download has been aborted.
 
