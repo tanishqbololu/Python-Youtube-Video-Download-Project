@@ -31,7 +31,7 @@ Step-by-Step Breakdown:
 
 Documentation:
 1. Overview:
-This script allows you to extract information about a YouTube video and optionally download it. It utilizes the pytube library for fetching video details and yt-dlp for downloading the video.
+  This script allows you to extract information about a YouTube video and optionally download it. It utilizes the pytube library for fetching video details and yt-dlp for downloading the video.
 2. Prerequisites:
 Make sure you have the required Python packages installed:
 bash
