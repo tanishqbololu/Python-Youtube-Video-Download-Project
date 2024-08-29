@@ -39,7 +39,7 @@ Documentation:
    * pip install pytube3
    * pip install --upgrade pytube
    * pip install yt-dlp
-4. Usage:
+3. Usage:
    * Running the Script:
      To use the script, run it in your Python environment. The script will prompt you to enter a YouTube video URL.
    * Extracting Video Information:
@@ -53,11 +53,12 @@ Documentation:
      After displaying the video information, the script will ask if you want to download the video.
        * If you choose "yes", it will download the video using the URL provided in the script.
        * If you choose "no", the download will be aborted.
-5. Code Explanation:
+4. Code Explanation:
 The code is broken down into the following main sections:
     * Input Handling: The user is prompted to enter the YouTube video URL.
     * Information Extraction: Video details like title, views, duration, description, and ratings are fetched using the pytube library.
     * Download Handling: The user is asked whether they want to download the video. If they agree, the video is downloaded using yt-dlp.
-6. Customization
+5. Customization:
 To download a different video, change the url variable inside the download block to the desired video's URL. You can also modify the ydl_opts to specify different download formats or settings.
+
 This script can be extended or modified to support additional features, such as downloading playlists or handling different formats.
