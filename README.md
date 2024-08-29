@@ -59,6 +59,5 @@ The code is broken down into the following main sections:
     * Information Extraction: Video details like title, views, duration, description, and ratings are fetched using the pytube library.
     * Download Handling: The user is asked whether they want to download the video. If they agree, the video is downloaded using yt-dlp.
 5. Customization:
-To download a different video, change the url variable inside the download block to the desired video's URL. You can also modify the ydl_opts to specify different download formats or settings.
-
-This script can be extended or modified to support additional features, such as downloading playlists or handling different formats.
+* To download a different video, change the url variable inside the download block to the desired video's URL. You can also modify the ydl_opts to specify different download formats or settings.
+* This script can be extended or modified to support additional features, such as downloading playlists or handling different formats.
