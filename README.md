@@ -7,17 +7,17 @@ Step-by-Step Breakdown:
     * pip install pytube3 and pip install --upgrade pytube: Install and upgrade the pytube library. This library allows you to interact with YouTube videos.
     * pip install yt-dlp: Install yt-dlp, a popular YouTube downloader with more advanced features.
 3. Importing the Libraries:
-    ofrom pytube import YouTube: Import the YouTube class from the pytube library, which is used to interact with YouTube videos.
-    ofrom yt_dlp import YoutubeDL: Import the YoutubeDL class from yt-dlp, used for downloading videos.
+    * from pytube import YouTube: Import the YouTube class from the pytube library, which is used to interact with YouTube videos.
+    * from yt_dlp import YoutubeDL: Import the YoutubeDL class from yt-dlp, used for downloading videos.
 4. Getting the YouTube Video Link:
-    olink = input("Enter youtube video"): Prompt the user to enter the YouTube video URL.
+    * link = input("Enter youtube video"): Prompt the user to enter the YouTube video URL.
 5. Extracting Video Information:
-    oyt = YouTube(link): Create a YouTube object for the provided video link.
-    oprint("Title :", yt.title): Print the title of the video.
-    oprint("Views :", yt.views): Print the number of views the video has.
-    oprint("Duration :", yt.length): Print the duration (in seconds) of the video.
-    oprint("Description :", yt.description): Print the video's description.
-    oprint("Ratings :", yt.rating): Print the video's average rating.
+    * yt = YouTube(link): Create a YouTube object for the provided video link.
+    * print("Title :", yt.title): Print the title of the video.
+    * print("Views :", yt.views): Print the number of views the video has.
+    * print("Duration :", yt.length): Print the duration (in seconds) of the video.
+    * print("Description :", yt.description): Print the video's description.
+    * print("Ratings :", yt.rating): Print the video's average rating.
 6. Downloading the Video:
     odownload_option = input("Do you want to download this video? (yes/no): ").lower(): Ask the user if they want to download the video. The answer is converted to lowercase for easier comparison.
     oIf the user chooses "yes":
