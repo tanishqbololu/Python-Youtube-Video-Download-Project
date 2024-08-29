@@ -3,8 +3,8 @@
 This Python script performs several tasks related to YouTube videos, such as extracting information about the video and providing an option to download it. The script uses two libraries: pytube and yt-dlp.
 
 Step-by-Step Breakdown: 
-    1. Installing Required Packages:
-      opip install pytube3 and pip install --upgrade pytube: Install and upgrade the pytube library. This library allows you to interact with YouTube videos.
+1. Installing Required Packages:
+    opip install pytube3 and pip install --upgrade pytube: Install and upgrade the pytube library. This library allows you to interact with YouTube videos.
     opip install yt-dlp: Install yt-dlp, a popular YouTube downloader with more advanced features.
     2. Importing the Libraries:
       ofrom pytube import YouTube: Import the YouTube class from the pytube library, which is used to interact with YouTube videos.
