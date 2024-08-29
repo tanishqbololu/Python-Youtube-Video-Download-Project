@@ -27,7 +27,7 @@ Step-by-Step Breakdown:
       * ydl.download([url]): Start downloading the video.
       * print("Download completed."): Inform the user that the download is complete.
     * If the user chooses "no":
-    print("Download aborted."): Inform the user that the download has been aborted.
+      * print("Download aborted."): Inform the user that the download has been aborted.
 
 Documentation:
 1. Overview
