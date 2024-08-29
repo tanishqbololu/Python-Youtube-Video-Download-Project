@@ -4,7 +4,7 @@ This Python script performs several tasks related to YouTube videos, such as ext
 
 Step-by-Step Breakdown: 
 1. Installing Required Packages:
-    opip install pytube3 and pip install --upgrade pytube: Install and upgrade the pytube library. This library allows you to interact with YouTube videos.
+        * pip install pytube3 and pip install --upgrade pytube: Install and upgrade the pytube library. This library allows you to interact with YouTube videos.
     opip install yt-dlp: Install yt-dlp, a popular YouTube downloader with more advanced features.
 2. Importing the Libraries:
     ofrom pytube import YouTube: Import the YouTube class from the pytube library, which is used to interact with YouTube videos.
