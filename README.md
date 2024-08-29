@@ -41,14 +41,14 @@ Documentation:
    * pip install yt-dlp
 4. Usage:
     1.Running the Script:
-    To use the script, run it in your Python environment. The script will prompt you to enter a YouTube video URL.
+     To use the script, run it in your Python environment. The script will prompt you to enter a YouTube video URL.
     2.Extracting Video Information:
-    The script will print the following details about the video:
-     * Title
-     * Number of views
-     * Duration (in seconds)
-     * Description
-     * Average ratings
+     The script will print the following details about the video:
+      * Title
+      * Number of views
+      * Duration (in seconds)
+      * Description
+      * Average ratings
     3.Downloading the Video:
      After displaying the video information, the script will ask if you want to download the video.
      * If you choose "yes", it will download the video using the URL provided in the script.
